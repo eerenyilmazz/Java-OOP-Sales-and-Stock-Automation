@@ -19,8 +19,6 @@ StockContract.java: Stok yönetimiyle ilgili arayüzlerin tanımlandığı dosya
 
 CoreInterface.java: Temel işlevleri tanımlayan arayüzlerin bulunduğu dosya.
 
-DALInterface.java: Veritabanı işlemleri için arayüzlerin bulunduğu dosya.
-
-feinterface.java: (Buraya dosyanın amacını ve içeriğini açıklayınız.)
+DALInterface.java: Veritabanı işlemleri için arayüzlerin bulunduğu dosya. Proje, MySQL veritabanıyla etkileşimli olarak çalışmaktadır. Veritabanı işlemleri için gerekli arayüzler ve bağlantılar bulunmaktadır.
 
 Bu proje, Java dilinde Nesne Yönelimli Programlama (OOP) prensiplerine dayanmaktadır ve bir dizi farklı arayüz ve sınıf içerir. Her dosya, belirli bir işlevselliği veya veri tabanı işlemini temsil eder.

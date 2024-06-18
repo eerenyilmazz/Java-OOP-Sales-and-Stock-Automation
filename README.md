@@ -1,24 +1,23 @@
-Sales and Stock Automation 
-Bu proje, satış ve stok yönetimi için Java tabanlı bir otomasyon sistemini içerir. Aşağıda proje kapsamında bulunan dosyaların bir listesini bulabilirsiniz:
+"Sales and Stock Automation" is a Java-based automation system for sales and inventory management. The project includes the following files within its scope:
 
-AccountsContract.java: Müşteri, çalışan ve diğer hesaplamalarla ilgili arayüzlerin tanımlandığı dosya.
+- **AccountsContract.java**: Defines interfaces related to customers, employees, and other account-related operations.
+  
+- **Authorities.java**: Manages authorization processes.
+  
+- **CatagoryContract.java**: Defines interfaces related to product categories.
+  
+- **CustomerContract.java**: Defines interfaces related to customer management.
+  
+- **EmployeeContract.java**: Defines interfaces related to employee management.
+  
+- **ProductsContract.java**: Defines interfaces related to products.
+  
+- **SalesContract.java**: Defines interfaces related to sales operations.
+  
+- **StockContract.java**: Defines interfaces related to inventory management.
+  
+- **CoreInterface.java**: Contains interfaces defining core functionalities.
+  
+- **DALInterface.java**: Contains interfaces for database operations. The project interacts with MySQL database for data operations, providing necessary interfaces and connections.
 
-Authorities.java: Yetkilendirme işlemleriyle ilgili sınıf.
-
-CatagoryContract.java: Ürün kategorileriyle ilgili arayüzlerin tanımlandığı dosya.
-
-CustomerContract.java: Müşteri yönetimiyle ilgili arayüzlerin tanımlandığı dosya.
-
-EmployeeContract.java: Çalışan yönetimiyle ilgili arayüzlerin tanımlandığı dosya.
-
-ProductsContract.java: Ürünlerle ilgili arayüzlerin tanımlandığı dosya.
-
-SalesContract.java: Satış işlemleriyle ilgili arayüzlerin tanımlandığı dosya.
-
-StockContract.java: Stok yönetimiyle ilgili arayüzlerin tanımlandığı dosya.
-
-CoreInterface.java: Temel işlevleri tanımlayan arayüzlerin bulunduğu dosya.
-
-DALInterface.java: Veritabanı işlemleri için arayüzlerin bulunduğu dosya. Proje, MySQL veritabanıyla etkileşimli olarak çalışmaktadır. Veritabanı işlemleri için gerekli arayüzler ve bağlantılar bulunmaktadır.
-
-Bu proje, Java dilinde Nesne Yönelimli Programlama (OOP) prensiplerine dayanmaktadır ve bir dizi farklı arayüz ve sınıf içerir. Her dosya, belirli bir işlevselliği veya veri tabanı işlemini temsil eder.
+This project is based on Object-Oriented Programming (OOP) principles in Java and encompasses a variety of interfaces and classes. Each file represents specific functionalities or database operations.
